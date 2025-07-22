@@ -3,7 +3,6 @@ const admin = require('firebase-admin');
 const app = express();
 const port = 3000;
 
-// TODO: Add your service account credentials
 const serviceAccount = require('./serviceAccountKey.json');
 
 admin.initializeApp({
